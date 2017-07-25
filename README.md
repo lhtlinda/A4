@@ -34,7 +34,7 @@ I have defined a cluster as a group of people in nodes, in which everyone can ge
 clusters have very few connections. Two different clusters are connected to each other, but two elements in different
 clusters might not necessarily be able to reach one another. I have made the Dijkstra so that if an element is 
 unreachable from current person, a statement will be printed out to say that it’s two different clusters. I 
-implemented Tarjan’s Algorithm to find clusters, defined as a group of strongly connected elements in which each 
+implemented Tarjan’s Algorithm using stack to find clusters, defined as a group of strongly connected elements in which each 
 element can reach every other. This function can be called separately to detect clusters and print out different 
 clusters and the people they contain.
  
